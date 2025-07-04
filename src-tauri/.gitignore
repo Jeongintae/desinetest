@@ -1,0 +1,24 @@
+# Rust build artifacts
+target/
+**/.DS_Store
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node.js modules
+node_modules/
+
+# Vue/Frontend build output
+dist/
+
+# macOS specific
+.DS_Store
+
+# IDE specific (VS Code)
+.vscode/
+
+# Tauri specific (if not already covered by target/)
+src-tauri/gen/
+src-tauri/icons/
+src-tauri/updater.json # Updater manifest, will be generated and uploaded to releases
